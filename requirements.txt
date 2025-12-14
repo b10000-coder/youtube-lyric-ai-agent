@@ -1,0 +1,12 @@
+apify-client==1.7.1
+python-dotenv==1.0.0
+tiktoken==0.5.2
+sentence-transformers==2.7.0
+transformers==4.40.0
+huggingface_hub==0.23.0
+requests==2.31.0
+torch==2.2.0
+numpy==1.26.4
+tqdm==4.66.0
+safetensors==0.4.3
+einops==0.7.0

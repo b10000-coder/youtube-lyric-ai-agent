@@ -1,0 +1,191 @@
+(base) burakkurt@192 aimultiple % source /Users/burakkurt/aimultiple/.venv/bin/activate
+((.venv) ) (base) burakkurt@192 aimultiple % python3 Burak_Kurt_YouTube_AI.py "https://www.youtube.com/watch?v=rSaC-YbSDpo" json
+Loading embedding model...
+/Users/burakkurt/aimultiple/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+<All keys matched successfully>
+============================================================
+Starting YouTube AI Scraping Agent
+============================================================
+Scraping YouTube URL: https://www.youtube.com/watch?v=rSaC-YbSDpo
+Found artist: Madonna
+Waiting 2.2 seconds...
+Asking OpenRouter LLM about Madonna's first album...
+First album: Madonna
+Found 8 songs
+
+[1/8] Processing: Lucky Star
+Scraping lyrics from: https://genius.com/madonna-lucky-star-lyrics
+✓ Successfully scraped lyrics (2505 characters)
+
+[2/8] Processing: Borderline
+Waiting 4.5 seconds...
+Scraping lyrics from: https://genius.com/madonna-borderline-lyrics
+✓ Successfully scraped lyrics (2142 characters)
+
+[3/8] Processing: Burning Up
+Waiting 6.0 seconds...
+Scraping lyrics from: https://genius.com/madonna-burning-up-lyrics
+✓ Successfully scraped lyrics (2167 characters)
+
+[4/8] Processing: I Know It
+Waiting 3.6 seconds...
+Scraping lyrics from: https://genius.com/madonna-i-know-it-lyrics
+✓ Successfully scraped lyrics (1699 characters)
+
+[5/8] Processing: Holiday
+Waiting 4.1 seconds...
+Scraping lyrics from: https://genius.com/madonna-holiday-lyrics
+✓ Successfully scraped lyrics (1428 characters)
+
+[6/8] Processing: Think of Me
+Waiting 5.0 seconds...
+Scraping lyrics from: https://genius.com/madonna-think-of-me-lyrics
+✓ Successfully scraped lyrics (2081 characters)
+
+[7/8] Processing: Physical Attraction
+Waiting 4.4 seconds...
+Scraping lyrics from: https://genius.com/madonna-physical-attraction-lyrics
+✓ Successfully scraped lyrics (2186 characters)
+
+[8/8] Processing: Everybody
+Waiting 4.8 seconds...
+Scraping lyrics from: https://genius.com/madonna-everybody-lyrics
+✓ Successfully scraped lyrics (3407 characters)
+Token counts string: 625,583,658,432,365,564,505,843
+
+============================================================
+Agent completed successfully!
+============================================================
+{
+  "artist": "Madonna",
+  "album_name": "Madonna",
+  "songs": [
+    {
+      "name": "Lucky Star",
+      "lyrics_length_chars": 2505,
+      "lyrics_length_words": 371,
+      "lyrics_length_tokens": 625,
+      "tokens_per_word": 1.68,
+      "lyrics_hash": "fbabb04f4585d163324911771605f237"
+    },
+    {
+      "name": "Borderline",
+      "lyrics_length_chars": 2142,
+      "lyrics_length_words": 341,
+      "lyrics_length_tokens": 583,
+      "tokens_per_word": 1.71,
+      "lyrics_hash": "4b3fe285907f67a8380684cd06532835"
+    },
+    {
+      "name": "Burning Up",
+      "lyrics_length_chars": 2167,
+      "lyrics_length_words": 364,
+      "lyrics_length_tokens": 658,
+      "tokens_per_word": 1.81,
+      "lyrics_hash": "c3cb4c7a283895b58f81115e6f847c03"
+    },
+    {
+      "name": "I Know It",
+      "lyrics_length_chars": 1699,
+      "lyrics_length_words": 300,
+      "lyrics_length_tokens": 432,
+      "tokens_per_word": 1.44,
+      "lyrics_hash": "fd1b86ec0ce2f57c72fcaff79abb9414"
+    },
+    {
+      "name": "Holiday",
+      "lyrics_length_chars": 1428,
+      "lyrics_length_words": 215,
+      "lyrics_length_tokens": 365,
+      "tokens_per_word": 1.7,
+      "lyrics_hash": "f1ddfacf9bd525a73ce95be5f4b30984"
+    },
+    {
+      "name": "Think of Me",
+      "lyrics_length_chars": 2081,
+      "lyrics_length_words": 344,
+      "lyrics_length_tokens": 564,
+      "tokens_per_word": 1.64,
+      "lyrics_hash": "ec4bf3ba4585b204f39a6a516924a237"
+    },
+    {
+      "name": "Physical Attraction",
+      "lyrics_length_chars": 2186,
+      "lyrics_length_words": 315,
+      "lyrics_length_tokens": 505,
+      "tokens_per_word": 1.6,
+      "lyrics_hash": "f1063f64a128f6e148e80052b768727e"
+    },
+    {
+      "name": "Everybody",
+      "lyrics_length_chars": 3407,
+      "lyrics_length_words": 531,
+      "lyrics_length_tokens": 843,
+      "tokens_per_word": 1.59,
+      "lyrics_hash": "52ffe55e267b1d2b3107028400686d63"
+    }
+  ],
+  "total_tokens_all_songs": 4575,
+  "avg_tokens_per_song": 571.88
+}
+((.venv) ) (base) burakkurt@192 aimultiple % python3 Burak_Kurt_YouTube_AI.py "https://www.youtube.com/watch?v=rSaC-YbSDpo" hash
+Loading embedding model...
+/Users/burakkurt/aimultiple/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+<All keys matched successfully>
+============================================================
+Starting YouTube AI Scraping Agent
+============================================================
+Scraping YouTube URL: https://www.youtube.com/watch?v=rSaC-YbSDpo
+Found artist: Madonna
+Waiting 2.6 seconds...
+Asking OpenRouter LLM about Madonna's first album...
+First album: Madonna
+Found 8 songs
+
+[1/8] Processing: Lucky Star
+Scraping lyrics from: https://genius.com/madonna-lucky-star-lyrics
+✓ Successfully scraped lyrics (2505 characters)
+
+[2/8] Processing: Borderline
+Waiting 5.7 seconds...
+Scraping lyrics from: https://genius.com/madonna-borderline-lyrics
+✓ Successfully scraped lyrics (2142 characters)
+
+[3/8] Processing: Burning Up
+Waiting 4.2 seconds...
+Scraping lyrics from: https://genius.com/madonna-burning-up-lyrics
+✓ Successfully scraped lyrics (2167 characters)
+
+[4/8] Processing: I Know It
+Waiting 4.4 seconds...
+Scraping lyrics from: https://genius.com/madonna-i-know-it-lyrics
+✓ Successfully scraped lyrics (1699 characters)
+
+[5/8] Processing: Holiday
+Waiting 5.4 seconds...
+Scraping lyrics from: https://genius.com/madonna-holiday-lyrics
+✓ Successfully scraped lyrics (1428 characters)
+
+[6/8] Processing: Think of Me
+Waiting 3.9 seconds...
+Scraping lyrics from: https://genius.com/madonna-think-of-me-lyrics
+✓ Successfully scraped lyrics (2081 characters)
+
+[7/8] Processing: Physical Attraction
+Waiting 4.9 seconds...
+Scraping lyrics from: https://genius.com/madonna-physical-attraction-lyrics
+✓ Successfully scraped lyrics (2186 characters)
+
+[8/8] Processing: Everybody
+Waiting 4.6 seconds...
+Scraping lyrics from: https://genius.com/madonna-everybody-lyrics
+✓ Successfully scraped lyrics (3407 characters)
+Token counts string: 625,583,658,432,365,564,505,843
+
+============================================================
+Agent completed successfully!
+============================================================
+178d91e7149251bb957c4ed903e5f87a
+((.venv) ) (base) burakkurt@192 aimultiple % 
